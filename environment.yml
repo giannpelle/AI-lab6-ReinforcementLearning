@@ -1,0 +1,14 @@
+name: aima_gym
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - jupyterlab
+  - jupytext
+  - matplotlib
+  - pandas
+  - keras
+  - gym
+  - pip
+  - pip:
+    - wumpus[gym] @ git+https://gitlab.inf.unibz.it/tessaris/wumpus.git
